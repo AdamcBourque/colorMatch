@@ -19,7 +19,8 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:textSize="32sp"
-        android:inputType="textVisiblePassword"/>
+        android:imeOptions="actionDone"
+        android:inputType="textNoSuggestions"/>
 
     <Button
         android:id="@+id/button"
